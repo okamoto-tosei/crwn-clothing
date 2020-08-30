@@ -3,7 +3,6 @@ import React from 'react';
 import './collection-item.styles.scss';
 
 const CollectionItem = ({ id, name, imageUrl, price }) => {
-  console.log(imageUrl);
   return (
     <div className="collection-item">
       <div
